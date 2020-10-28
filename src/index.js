@@ -7,8 +7,8 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <div id="contenedor">
-    <WrapperApp />
-    <div className="creditos">
+      <WrapperApp />
+      <div className="creditos">
         <small>
           <a
             href="https://github.com/MoszykBloo/react-weather-project"
@@ -20,7 +20,7 @@ ReactDOM.render(
           <span id="my-name">by Monica Camacho</span>
         </small>
       </div>
-      </div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
