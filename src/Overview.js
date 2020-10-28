@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
+
 import "./Overview.css";
 
 export default function Overview(props) {
@@ -9,7 +11,7 @@ export default function Overview(props) {
     console.log(response.data)
     setWeatherData({
       ready: true,
-      date: "Monday 7:00",
+      date: new Date(response.data.dt * 1000),
       city: response.data.name,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
@@ -49,7 +51,7 @@ export default function Overview(props) {
         </form>
         <div className="overview">
           <small id="date">
-            Last updated: <br /> {weatherData.date}
+            Last updated: <br /> <FormattedDate date={weatherData.date}/>
           </small>
           <h1 id="city">{weatherData.city}</h1>
           <p id="description">{weatherData.description}</p>

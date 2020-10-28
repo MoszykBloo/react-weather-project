@@ -8,7 +8,7 @@ import "./ForecastWeather";
 export default function WeatherApp() {
   return (
     <div id="weather-app">
-      <Overview defaultCity="Coyoacan"/>
+      <Overview defaultCity="santa catarina"/>
       <ForecastWeather />
     </div>
   );
