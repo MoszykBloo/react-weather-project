@@ -22,8 +22,7 @@ export default function FormSearchCurrent() {
           />
         </div>
         <div className="col-3">
-          <button className="btn btn-outline-info w-100" id="current">
-            Current
+          <button className="btn btn-outline-info w-100" id="current">Current
           </button>
         </div>
       </div>
