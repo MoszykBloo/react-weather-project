@@ -24,11 +24,11 @@ export default function Overview() {
         </div>
         <div className="col-6" id="c-f">
           <span id="degrees">
-            <a href="https://github.com/MoszykBloo/react-weather-project" id="celsius-link" className="active">
+            <a href="/" id="celsius-link" className="active">
               ºC
             </a>{" "}
             |
-            <a href="https://github.com/MoszykBloo/react-weather-project" id="fahrenheit-link">
+            <a href="/" id="fahrenheit-link">
               {" "}
               ºF
             </a>
