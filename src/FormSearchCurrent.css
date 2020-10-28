@@ -1,0 +1,21 @@
+#city-input {
+  color: rgb(110, 105, 105);
+}
+
+#search-button {
+  color: #5092da;
+  border-color: #649cd8;
+  font-size: 16px;
+  padding: 7px 0 6px 2px;
+}
+
+#search-button:hover {
+  color: white;
+  border-color: #5092da;
+  background-color: #5092da;
+}
+
+#current {
+  font-size: 16px;
+  padding: 7px 0 6px 2px;
+}
