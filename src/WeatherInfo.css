@@ -20,32 +20,3 @@ h1 {
   display: block;
   width: 42%;
 }
-
-#numbers {
-  margin: 0 20px 0 20px;
-}
-
-#big-temp {
-  text-align: right;
-  padding-right: 3px;
-}
-
-#c-f {
-  text-align: left;
-  top: 15px;
-  padding-left: 3px;
-}
-
-#celsius-link,
-#fahrenheit-link {
-  color: blue;
-}
-
-#celsius-link,
-#fahrenheit-link:hover {
-  color: hsl(-510deg 39% 56%);
-}
-
-#temperature {
-  font-size: 55px;
-}

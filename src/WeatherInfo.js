@@ -2,6 +2,7 @@ import React from "react";
 
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
+import ChangeDegrees from "./ChangeDegrees";
 
 import "./WeatherInfo.css"
 
@@ -19,23 +20,7 @@ export default function WeatherInfo(props){
             <div className="clearfix weather-temperature">
                 <WeatherIcon code={props.data.icon} />
             </div>
-            <div className="row" id="numbers">
-                <div className="col-6" id="big-temp">
-                    <strong id="temperature">{Math.round(props.data.temperature)}</strong>
-                </div>
-                <div className="col-6" id="c-f">
-                    <span id="degrees">
-                    <a href="/" id="celsius-link" className="active">
-                        ºC
-                    </a>{" "}
-                    |
-                    <a href="/" id="fahrenheit-link">
-                        {" "}
-                        ºF
-                    </a>
-                    </span>
-                </div>
-            </div>
+            <ChangeDegrees celsius={props.data.temperature}/>
             <div className="row" id="details">
                 <div className="col-4 details">
                     <p>
