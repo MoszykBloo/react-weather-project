@@ -1,0 +1,10 @@
+.row #forecast-weather {
+  margin: 10px 10px 10px 10px;
+  color: hsl(-325deg 52% 58%);
+}
+
+.day,
+.day-temp {
+  text-align: center;
+  font-size: 15px;
+}
