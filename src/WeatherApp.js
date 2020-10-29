@@ -1,14 +1,14 @@
 import React from "react";
-import Overview from "./Overview";
+import SearchEngine from "./SearchEngine";
 import ForecastWeather from "./ForecastWeather";
 
-import "./Overview.css";
-import "./ForecastWeather";
+import "./SearchEngine.css";
+import "./ForecastWeather.css";
 
 export default function WeatherApp() {
   return (
     <div id="weather-app">
-      <Overview defaultCity="santa catarina"/>
+      <SearchEngine defaultCity="los angeles"/>
       <ForecastWeather />
     </div>
   );
