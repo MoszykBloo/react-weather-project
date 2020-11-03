@@ -14,8 +14,6 @@ export default function TheForecast(props){
     }
 
     if(loaded && props.city === forecast.city.name){
-        console.log(Math.round(forecast.list[0].main.temp));
-        console.log(props.data);
         return (
             <div className="row" id="forecast-weather">
                 <ForecastView data={forecast.list[0]} />
