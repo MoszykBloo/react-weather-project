@@ -3,6 +3,8 @@ import axios from "axios";
 
 import WeatherInfo from "./WeatherInfo";
 import TheForecast from "./TheForecast";
+import CurrentBotton from "./CurrentBotton";
+
 
 import "./SearchEngine.css";
 import "./TheForecast.css";
@@ -63,8 +65,7 @@ export default function SearchEngine(props) {
               />
             </div>
             <div className="col-3">
-              <button className="btn btn-outline-info w-100" id="current">Current
-              </button>
+              <CurrentBotton />
             </div>
           </div>
         </form>
