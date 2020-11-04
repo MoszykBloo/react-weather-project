@@ -49,9 +49,6 @@ export default function SearchEngine(props) {
         let longitude = 0;
         latitude = position.coords.latitude;
         longitude = position.coords.longitude;
-        console.log(position);
-        console.log(latitude);
-        console.log(longitude);
         let apiKey = "3e43755f9b9e49aaa25fe2da226ada2b";
         let apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
 
